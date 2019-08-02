@@ -11,7 +11,7 @@ Grupo|Meta|Mnemônico|Obs
 representa um ou|[ ]|lista|Apenas o que coincidir. Não existe coringa
 mais caracteres|[^]|lista negada|Inverte a lógica
 **Quantificadores**|?|opcional|O caractere ou lista anterior ficam opcionais
-"|*|asterisco|A entidade anterior apareça em qualquer quantidade. De 0 a $\infty$
+"|*|asterisco|A entidade anterior apareça em qualquer quantidade. De 0 a ∞
 "|+|mais|
 "|{ }|chaves
 Âncoras|^|circunflexo
