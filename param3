@@ -1,0 +1,1 @@
+for file in param[1-9]; do cat param5; done

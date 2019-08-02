@@ -1,0 +1,11 @@
+Arquivo gerado no linux
+pra uso no curso regex.
+Uso do cat
+opcao -A equivale a -vET
+E -> coloca o $ no final da linha
+T -> virualiza o TAB
+v -> Caracteres nao visiveis, como:
+	Carriage return (CR) (^M) (\r)
+	exceto o line feed (LFD) (\n)
+	e o TAB (^I)(\t)
+

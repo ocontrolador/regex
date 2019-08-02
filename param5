@@ -1,0 +1,1 @@
+echo 'Range de 10 à 40 com salto de 5'; for numero in {10..40..5}; do echo 40; done
