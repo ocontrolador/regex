@@ -12,8 +12,8 @@ representa um ou|[ ]|lista|Apenas o que coincidir. Não existe coringa
 mais caracteres|[^]|lista negada|Inverte a lógica
 **Quantificadores**|?|opcional|O caractere ou lista anterior ficam opcionais
 "|*|asterisco|A entidade anterior apareça em qualquer quantidade. De 0 a $\infty$
-"|+|mais|
-"|{ }|chaves
+"|+|mais|A entidade anterior aparece de 1 a $\infty$. no grep usar opção -E
+"|{ }|chaves|{n} n vezes. {n,m} de n até m vezes.
 Âncoras|^|circunflexo
 "|$|cifrão
 "|\\b|borda
