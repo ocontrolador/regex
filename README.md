@@ -11,12 +11,12 @@ Grupo|Meta|Mnemônico|Obs
 representa um ou|[ ]|lista|Apenas o que coincidir. Não existe coringa
 mais caracteres|[^]|lista negada|Inverte a lógica
 **Quantificadores**|?|opcional|O caractere ou lista anterior ficam opcionais
-"|*|asterisco|A entidade anterior apareça em qualquer quantidade. De 0 a $\infty$
-"|+|mais|A entidade anterior aparece de 1 a $\infty$. no grep usar opção -E
+"|*|asterisco|A entidade anterior apareça em qualquer quantidade. De 0 a &infin;
+"|+|mais|A entidade anterior aparece de 1 a &infin;. no grep usar opção -E
 "|{ }|chaves|{n} n vezes. {n,m} de n até m vezes.
-Âncoras|^|circunflexo
-"|$|cifrão
-"|\\b|borda
+Âncoras|^|circunflexo|Início da linha. Dentro da _lista é negação_.
+"|$|cifrão|Fim da linha
+"|\\b|borda|Limítrofe
 Outros|\\|escape
 "|\||ou
 "|( )|grupo
@@ -102,5 +102,5 @@ colocado no incício da lista.
 Ex.: **[^0-9]** equivale a tudo menos os números.
 
 
-Pausado em 34min. Continua...
+Pausado em 51min. Continua...
 
