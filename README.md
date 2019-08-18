@@ -16,9 +16,9 @@ mais caracteres|[^]|lista negada|Inverte a lógica
 "|{ }|chaves|{n} n vezes. {n,m} de n até m vezes.
 Âncoras|^|circunflexo|Início da linha. Dentro da _lista é negação_.
 "|$|cifrão|Fim da linha
-"|\\b|borda|Limítrofe
-Outros|\\|escape
-"|\||ou
+"|\\b|borda|Limítrofe da expressão. Sinal '<>' também é usado 
+Outros|\\|escape|Criptonita. Tira o poder dos demais metacaracteres
+"|\||ou|Pode ter mais de um valor
 "|( )|grupo
 "|\\n|retrovisor
 
@@ -102,5 +102,4 @@ colocado no incício da lista.
 Ex.: **[^0-9]** equivale a tudo menos os números.
 
 
-Pausado em 51min. Continua...
-
+Pausado em 59 min. Continua...
