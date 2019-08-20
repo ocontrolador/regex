@@ -19,8 +19,8 @@ mais caracteres|[^]|lista negada|Inverte a lógica
 "|\\b|borda|Limítrofe da expressão. Sinal '<>' também é usado 
 Outros|\\|escape|Criptonita. Tira o poder dos demais metacaracteres
 "|\||ou|Pode ter mais de um valor
-"|( )|grupo
-"|\\n|retrovisor
+"|( )|grupo|Aceita subgrupo. Ex.: ((su\|hi)per)?mercado -> supermercado, hipermercado ou mercado
+"|\\n|retrovisor|\1...\9. Equivale ao q foi encontrado no Grupo
 
 ### Classe POSIX
 _Respeita o idioma_
@@ -101,5 +101,3 @@ Possui a lógica inversa quando o **circunflexo (^)** é
 colocado no incício da lista.  
 Ex.: **[^0-9]** equivale a tudo menos os números.
 
-
-Pausado em 59 min. Continua...
