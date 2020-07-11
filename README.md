@@ -17,7 +17,7 @@ mais caracteres|[^]|lista negada|Inverte a lógica
 Âncoras|^|circunflexo|Início da linha. Dentro da _lista é negação_.
 "|$|cifrão|Fim da linha
 "|\\b|borda|Limítrofe da expressão. Sinal '<>' também é usado 
-Outros|\\|escape|Criptonita. Tira o poder dos demais metacaracteres
+Outros|\\ |escape|Criptonita. Tira o poder dos demais metacaracteres
 "|\||ou|Pode ter mais de um valor
 "|( )|grupo|Aceita subgrupo. Ex.: ((su\|hi)per)?mercado -> supermercado, hipermercado ou mercado
 "|\\n|retrovisor|\1...\9. Equivale ao q foi encontrado no Grupo
